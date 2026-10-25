@@ -1,0 +1,18 @@
+{
+    "id": "dde0a075-c8ea-469f-b6b4-22c5ac8b7a4d",
+    "scriptName": "Direct Speech Color (RU Dual-Color)",
+    "findRegex": "/(?:((?:^|\\n|(?<=^[ \\t]*—[^\\n]*)[.!?…,:][*_\\s</a-zA-Z>]*)[ \\t]*—[ \\t]*)((?:[^—\\n]|(?<![,!?…\\.][*_»\"'\\s]*)[ \\t]*—)+)|(«[^»\\n]+?)(?:([.,!?…][*_\\s</a-zA-Z>]*[ \\t]*—[ \\t]*[^»\\n]+?[.!?…,:][*_\\s</a-zA-Z>]*[ \\t]*—[ \\t]*)([^»\\n]+»)|(»)))/gm",
+    "replaceString": "$1<span style=\"color:#b4c6a6;\">$2</span><span style=\"color:#55dda0;\">$3$6</span>$4<span style=\"color:#55dda0;\">$5</span>",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 0,
+    "maxDepth": null
+}
