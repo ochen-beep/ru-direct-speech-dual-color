@@ -3,12 +3,13 @@
 Регулярное выражение для **SillyTavern**. Красит русскую прямую речь с тире (`—`) и кавычками-«ёлочками» (`«...»`) в два разных цвета, **не задевая слова автора**.
 
 ## Установка в SillyTavern
-<img width="486" height="382" alt="image" src="https://github.com/user-attachments/assets/66cfd6b4-27b0-4b09-84c2-09f01af0333d" />
 
 1. Скачайте файл `.json` https://github.com/ochen-beep/ru-direct-speech-dual-color/blob/main/ru-direct-speech-dual-color.json
 2. В SillyTavern откройте **Extensions (Расширения) → Regex**.
 3. Нажмите **Import (Импорт)** и выберите скачанный `.json` файл.
+<img width="486" height="382" alt="image" src="https://github.com/user-attachments/assets/66cfd6b4-27b0-4b09-84c2-09f01af0333d" />
 
+## Как выглядит?
 <img width="1154" height="1188" alt="image" src="https://github.com/user-attachments/assets/e61c3b78-b94d-4cba-993a-06b0b199d27d" />
 
 <details>
